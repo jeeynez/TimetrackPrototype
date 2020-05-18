@@ -1,0 +1,94 @@
+
+
+.button a:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+button {
+ position: absolute;
+ top: 100%;
+ left: 20%;
+ display: inline-block;
+ background-color:#0079C2;
+ border-radius: 5px;
+ border: 4px double #cccccc;
+ color: #eeeeee;
+ text-align: center;
+ font-size: 14px;
+ padding: 10px;
+ width: 100px;
+ -webkit-transition: all 0.5s;
+ -moz-transition: all 0.5s;
+ -o-transition: all 0.5s;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+ }
+
+ 
+ .toptab {
+   overflow: hidden;
+   background-color: black;
+   
+ }
+
+ .toptab a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+
+ .toptab a:hover {
+   background-color:#24AAE0;
+   color: black;
+ }
+
+ .toptab a.active {
+   background-color: rgb(12, 116, 15);
+   color: white;
+ }
+
+ .container {
+   text-align: right;
+ }
+
+ .centered {
+   position: absolute;
+   top: 38%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 35px;
+   color: black;
+ }
+
+ .form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #0079C2;
+    width: 157px;
+    color: black;
+    
+    
+}
+
+ .log {
+   text-align: center;
+   margin-top: -5px;
+   /* position: absolute;
+   top: 70%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 35px; */
+   color: #0079C2;
+ }
+
+ .form {
+  text-align: center;
+
+ }
