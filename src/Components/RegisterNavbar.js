@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from '../logo.png';
+import '../styles.css'
 
-function Navbar() {
-    return (
-    <div >
+function unRegisterNavbar() {
+    return (  
+    <div>
       <div className="toptab" >
-        <a href="shop.html" > Support Center </a>
+        <a href="#" > Register </a>
       </div>
       <div className="container" >
         <img src={logo}
@@ -18,4 +19,4 @@ function Navbar() {
 
 }
 
-export default Navbar;
+export default unRegisterNavbar;

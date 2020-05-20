@@ -49,7 +49,6 @@ function App() {
           type="password" />
         <button onClick={tryToLogIn} > Log In </button> 
       </div>
-      
     </div>
   )
   
